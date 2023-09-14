@@ -3,16 +3,40 @@
 <head>
     <link href="styles.css" rel='stylesheet'>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Type Race </title>
 </head>
 <body>
     <div class='header'>
         Test your WPM
     </div>
-    <div class='text'>
-        Start typing
-    </div>
     <div class='typeTest'>
+        <div id='result' class='out'>
+            <div id='top'></div>
+            <div id='picture'></div>
+            <div id='origin'></div>
+            <div id='stats'>
+                <div id='WPM'>
+                    <span id='icon' class="material-icons">
+                        keyboard
+                        </span>
+                </div>
+                <div id='timer'>
+                    <span id= 'icon' class="material-icons">
+                        timer
+                        </span>
+                </div>
+                <div id='quote'></div>
+            </div>
+            <div id='btn'>
+                <button id='retry' class='out'>Try again</button>
+                
+            </div>
+            <div id='next'>
+                <button id='newRace' class ='out'>Next Race</button>
+            </div>
+        </div>
         <p id='type'></p>
     </div>
     <div class='text-box'>
