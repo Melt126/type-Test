@@ -1,3 +1,5 @@
+//I WROTE THIS CODE IN 2021, I'M SO SORRY IF YOU'RE GOING THROUGH IT. I DIDN'T KNOW WHAT I WAS DOING
+//I have come a long way since then, I swear
 function start(){
     function whole(){
 
